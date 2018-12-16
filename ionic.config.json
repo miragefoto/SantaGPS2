@@ -1,0 +1,7 @@
+{
+  "name": "santa-background-geolocation",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
