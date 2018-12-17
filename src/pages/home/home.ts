@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { LocationTrackerProvider } from '../../providers/location-tracker/location-tracker'
+import { LocationTracker } from '../../providers/location-tracker/location-tracker'
 
 @Component({
   selector: 'page-home',
@@ -8,7 +8,9 @@ import { LocationTrackerProvider } from '../../providers/location-tracker/locati
 })
 export class HomePage {
  
-  constructor(public navCtrl: NavController, public locationTracker: LocationTrackerProvider) {
+  constructor(
+    public navCtrl: NavController, 
+    public locationTracker:LocationTracker) {
  
   }
  
